@@ -1,0 +1,20 @@
+# Create Users
+POST http://localhost:8000/api/v1/users
+Content-Type: application/json
+
+{
+  "name": "kucing",
+  "email": "kucing@gmail.com",
+  "password": "password123",
+  "identity_type": "KTP", 
+  "identity_number": "003", 
+  "address": "Surabaya"
+}
+
+### Get all users
+GET http://localhost:8000/api/v1/users
+
+### Get Specific User
+GET http://localhost:8000/api/v1/users/7
+
+
