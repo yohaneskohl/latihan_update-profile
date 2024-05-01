@@ -1,0 +1,13 @@
+POST http://localhost:3000/v1/api/aut/register
+Content-Type: application/json
+
+{
+    "first_name": "Kevin",
+    "last_name": "Yohanes",
+    "email": "kevin@gmail.com",
+    "password": "password123"
+}
+
+###videos
+POST http://localhost:3000/api/v1/upload/video
+Content-Type: multipart/form-data

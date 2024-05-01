@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploaded Document</title>
+</head>
+<body>
+    <h1>Uploaded Document</h1>
+document_url
+    <% if (document_url) { %>
+        <p>Download your document <a href="<%= document_url %>" download>here</a>.</p>
+    <% } else { %>
+        <p>No document uploaded.</p>
+    <% } %>
+</body>
+</html>
